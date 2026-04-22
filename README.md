@@ -61,7 +61,7 @@ Node.js: Run npx serve . in the root directory.
 
 Python: Run python -m http.server in the root directory.
 
-Open your browser to the provided local host address (e.g., http://127.0.0.1:5500).
+Open your browser to the provided local host address (https://scriptwriting.vercel.app/).
 
 💡 How It Works (Under the Hood)
 State Management: The main application state is held in a single shots array. Every time a shot is added, edited, deleted, or reordered, the render() function rebuilds the DOM, and saveToStorage() synchronizes the array with localStorage.
